@@ -1,76 +1,74 @@
-/* .tipyngContainer {
-	width: 100%;
-	height: 100%;
+
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Raleway:wght@500&display=swap');
+
+
+
+h1 {
+	display: flex
+}
+
+.lista{
+	margin-left: 10px
+}
+
+.container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	color: azure;
-}
+	align-items: start;
+	padding-top: 60px;
 
-.tipyngName {
-	animation: animation 2.5s steps(35),
-		transparent 0.5s step-end infinite alternate;
-	width: 13.1em;
-	white-space: nowrap;
-	overflow: hidden;
-	font-size: 4ch;
-	color: rgb(238, 234, 234);
+font-family: 'Raleway', sans-serif;
 }
-.tipyngTittle {
-	animation: animation 4s steps(35), transparent 0.5s infinite alternate;
-	animation-delay: 2.5s;
-	width: 22.1em;
-	white-space: nowrap;
-	overflow: hidden;
-	font-size: 4ch;
-	color: rgb(238, 234, 234);
-}
-
-@keyframes animation {
-	from {
-		width: 0px;
-	}
-}
-
-@keyframes transparent {
-	50% {
-		border-color: transparent;
-	}
-}
-
-.foto {
-	width: 300px;
-	border-radius: 200px;
-	display: flex;
-	align-items: center;
-	justify-items: center;
-}
-
-
-.cursor::after {
-	display: block;
-	content: '';
+.item{
 	position: absolute;
-	width: 4px;
-	height: 100%;
-	background-color: #fff;
-	animation: cursor 0.6s linear infinite alternate;
-	will-change: opacity;
+	animation:roll 8s ease 1s infinite backwards
+}
+.item:nth-child(1){
+	animation-delay: 0s;
+	opacity: 0
+}
+.item:nth-child(2){
+	animation-delay: 2s;
+	opacity: 0
+}
+.item:nth-child(3){
+	animation-delay:4s;
+	opacity: 0
+}
+.item:nth-child(4){
+	animation-delay: 6s;
+	opacity: 0
 }
 
-@keyframes cursor {
-	0%,
-	40% {
-		opacity: 1;
-	}
+@keyframes roll{
+0%{  
+	opacity: 0;
+	transform: translate3d(0,-70%,0)
+}
+2.5%, 25%{
+	opacity: 1;
+	transform: translateZ(0)
+}
+27.5%, 100%{
+	opacity: 0;
+	transform: translate(0,70%,0)
+}
+
+}
+
+.press{
 	
-	60%,
-	100% {
-		opacity: 0;
-	}
-} */
-
-.will-change-transform {
-	will-change: transform;
+font-family: 'Raleway', sans-serif;
 }
+.press:hover {-webkit-transform:scale(1.1);transform:scale(1.1); transition:2s}
+
+
+.foto{
+
+	filter: opacity(.5);
+
+}
+
+

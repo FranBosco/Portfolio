@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function NavBar() {
 	return (
-		<div className="absolute h-[10vh] min-h-fit">
+		<div className="fixed h-[10vh] min-h-fit">
 			<div className=" bg-gradient-to-b from-black	 to-blue-900  w-screen max-w-screen flex justify-between border-b-2 border-black fixed pb-4 pt-4 border-x-indigo-900">
 				<div className="flex justify-start text-5xl ml-20 mt-2  text-white">
 					<a href="/">
