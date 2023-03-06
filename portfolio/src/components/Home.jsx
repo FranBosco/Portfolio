@@ -1,40 +1,53 @@
 import React from 'react';
 import './Home.css';
-import foto from '../images/cajatest.jpg';
+import foto from '../images/aaa.jpg';
+import { IoIosArrowDropdownCircle } from 'react-icons/io';
 
 export default function Home() {
 	return (
-		<div className="min-h-screen pt-[15vh] scroll-smooth text-white text-4xl ml-[10%] grid grid-cols-2	  ">
-		<div>
-	    <div className="foto"> 
-	    <img src={foto} alt='' className='w-72 rounded-full flex justify-center  mt-20 '/>
-        </div>
-		
-		  <div className='container'>
-            <div>
-              <h1>Hi! i'm
-                <div className='lista'>
-                  <div className='item'>
-                  Franco Bosco
-                  </div>
-                   <div className='item'>
-                  FullStack developer
-                  </div>
-                   <div className='item'>
-                  Proactive
-                  </div>
-                   <div className='item'>
-                  Hard worker
-                  </div>
-                </div>
-              </h1>
-             </div>
-		</div>
-		</div>
-		<div className='press'>
-		<p className='sm:h-[80vh] text-white text-xl sm:mr-[10vw] sm:mt-[6vh] sm:py-6 sm:px-6 sm:mt-[13vh] '>
-I'm a full stack developer, graduated from Henry in October 2022. In addition, I'm close to graduating with a Bachelor of Administration, at the National University of Mar del Plata - Argentina. I'm a proactive person, with ease for group work as well as the ability to learn quickly. My goal in the world of programming is to perfect the skills acquired in Henry's bootcamp and learn new technologies required in the market. </p>
-		</div>		
+		<div className="sm:min-h-screen max-h-screen scroll-smooth text-white sm:text-4xl backhome sm:flex sm:flex-col h-screen pt-[12vh] sm:pt-[25vh] lg:pt-[15vh]">
+			<div className="flex sm:ml-[30vw] flex-col sm:flex-row">
+				<div className=" sm:foto">
+					<img
+						src={foto}
+						alt=""
+						className="sm:w-[17vw] lg:w-[26vw] w-[70vw] ml-[15vw] sm:ml-0 rounded-full  sm:mt-20 hover:shadow-xl hover:shadow-blue-400 fotoh "
+					/>
+				</div>
+
+				<div className="pt-8 sm:pt-0 pb-6 sm:pb-0 ml-2 sm:ml-0 sm:container sm:text-5xl text-2xl ">
+					<div className="">
+						<h1>
+							Hi! i'm
+							<div className="lista">
+								<div className="item text-blue-500">Franco Bosco</div>
+								<div className="item text-yellow-400">FullStack developer</div>
+								<div className="item text-teal-500">Proactive</div>
+								<div className="item text-indigo-400">Hard worker</div>
+							</div>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div className="container2  max-h-[40vh] flex justify-center h-fit">
+				<p
+					className="text-white 
+				   sm:pt-5 xl:pt-10 press  hover:shadow-xl hover:shadow-blue-900 xl:text-xl  text-sm"
+				>
+					I'm a full stack developer, graduated from Henry in October 2022. In
+					addition, I'm close to graduating with a Bachelor of Administration,
+					at the National University of Mar del Plata - Argentina. I'm a
+					proactive person, with ease for group work as well as the ability to
+					learn quickly. My goal in the world of programming is to perfect the
+					skills acquired in Henry's bootcamp and learn new technologies
+					required in the market.{' '}
+				</p>
+			</div>
+			{/* <div className="flex justify-center">
+				<a href="#about">
+					<IoIosArrowDropdownCircle className="text-6xl mt-20 mb-20 flex justify-center animate-bounce text-blue-400" />
+				</a>
+			</div> */}
 		</div>
 	);
 }

@@ -1,35 +1,135 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
+import {
+	Navbar,
+	MobileNav,
+	Typography,
+	IconButton
+} from '@material-tailwind/react';
 
-export default function NavBar() {
+export default function Example() {
+	const [openNav, setOpenNav] = useState(false);
+
+	useEffect(() => {
+		window.addEventListener(
+			'resize',
+			() => window.innerWidth >= 960 && setOpenNav(false)
+		);
+	}, []);
+
+	const navList = (
+		<ul className=" flex flex-col lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal"
+			>
+				<a href="#home" className="flex items-center">
+					Home
+				</a>
+			</Typography>
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal"
+			>
+				<a href="#about" className="flex items-center">
+					About
+				</a>
+			</Typography>
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal"
+			>
+				<a href="#proyects" className="flex items-center">
+					Proyects
+				</a>
+			</Typography>
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal"
+			>
+				<a
+					rel="noreferrer"
+					href="#skills"
+					className="p-1 font-normal flex items-center"
+				>
+					Skills
+				</a>
+			</Typography>
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal "
+			>
+				<a
+					rel="noreferrer"
+					href="#contact"
+					className="p-1 font-normal flex items-center"
+				>
+					Contact
+				</a>
+			</Typography>
+		</ul>
+	);
+
 	return (
-		<div className="fixed h-[10vh] min-h-fit">
-			<div className=" bg-gradient-to-b from-black	 to-blue-900  w-screen max-w-screen flex justify-between border-b-2 border-black fixed pb-4 pt-4 border-x-indigo-900">
-				<div className="flex justify-start text-5xl ml-20 mt-2  text-white">
-					<a href="/">
-						<h1>Franco Bosco</h1>
-					</a>
-				</div>
-				<div className="flex space-x-10 justify-end pt-[2vh]  mr-10 text-xl  ">
-					<ul className="flex space-x-7  text-white">
-						<li className="hover:underline hover:underline-offset-4 hover:decoration-yellow-400">
-							<a href="#home"> Home</a>
-						</li>
-						<li className="hover:underline hover:underline-offset-4 hover:decoration-yellow-400">
-							<a href="#about"> About</a>
-						</li>
-						<li className="hover:underline hover:underline-offset-4 hover:decoration-yellow-400">
-							<a href="#proyects"> Proyects</a>
-						</li>
-						<li className="hover:underline hover:underline-offset-4 hover:decoration-yellow-400">
-							<a href="#skills"> Skills</a>
-						</li>
+		<Navbar className="mx-auto  lg:px-8  bg-gradient-to-b from-blue-900 to-black opacity-95 sm:text-2xl fixed z-50 h-fit pb-4 sm:pb-0 sm:h-[10vh] ">
+			<div className=" mx-auto flex  justify-between mt-[3vh] text-blue-gray-900 pr-80 sm:pr-0  sm:pt-0  ">
+				<Typography
+					as="a"
+					href="#"
+					variant="small"
+					className="mr-4 cursor-pointer py-1.5 font-normal"
+				></Typography>
+				<div className="hidden lg:block">{navList}</div>
 
-						<li className="hover:underline hover:underline-offset-4 hover:decoration-yellow-400">
-							<a href="#contact"> Contact</a>
-						</li>
-					</ul>
-				</div>
+				<IconButton
+					variant="text"
+					className="sm:ml-auto mb-5 sm:mb-0 h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+					ripple={false}
+					onClick={() => setOpenNav(!openNav)}
+				>
+					{openNav ? (
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							className="h-6 w-6"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							strokeWidth={2}
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					) : (
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-6 w-6"
+							fill="none"
+							stroke="currentColor"
+							strokeWidth={2}
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								d="M4 6h16M4 12h16M4 18h16"
+							/>
+						</svg>
+					)}
+				</IconButton>
 			</div>
-		</div>
+
+			<MobileNav open={openNav}>{navList}</MobileNav>
+		</Navbar>
 	);
 }
