@@ -15,7 +15,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div className="pt-8 sm:pt-0 pb-6 sm:pb-0 ml-2 sm:ml-0 sm:container sm:text-5xl text-2xl ">
+				<div className="pt-8 sm:pt-0 pb-6 sm:pb-0 ml-2 sm:ml-0 sm:container sm:text-5xl text-xl ">
 					<div className="">
 						<h1>
 							Hi! i'm
