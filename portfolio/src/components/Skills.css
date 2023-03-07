@@ -2,3 +2,9 @@
 	background: linear-gradient(black, transparent, black),
 		url('../images/abeb.jpg');
 }
+
+.logos:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: 2s;
+}

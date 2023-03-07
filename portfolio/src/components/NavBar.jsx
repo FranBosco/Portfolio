@@ -89,7 +89,7 @@ export default function Example() {
 					href="#contact"
 					className="p-1 font-normal flex items-center"
 				>
-					<BsLinkedin className="text-blue-300 sm:text-3xl" />
+					<BsLinkedin className="text-blue-300 text-3xl" />
 				</a>
 			</Typography>
 			<Typography
@@ -103,14 +103,14 @@ export default function Example() {
 					href="#contact"
 					className="p-1 font-normal flex items-center"
 				>
-					<BsGithub className="text-blue-300 sm:text-3xl" />
+					<BsGithub className="text-blue-300 text-3xl" />
 				</a>
 			</Typography>
 			<Typography
 				as="li"
 				variant="medium"
 				color="blue-gray"
-				className="p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
+				className="w-[60vw] sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
 			>
 				Download Cv
 			</Typography>
