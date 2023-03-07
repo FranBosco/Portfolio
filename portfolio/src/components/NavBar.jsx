@@ -5,6 +5,8 @@ import {
 	Typography,
 	IconButton
 } from '@material-tailwind/react';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 
 export default function Example() {
 	const [openNav, setOpenNav] = useState(false);
@@ -34,8 +36,8 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#about" className="flex items-center">
-					About
+				<a href="#proyects" className="flex items-center">
+					Proyects
 				</a>
 			</Typography>
 			<Typography
@@ -44,8 +46,8 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#proyects" className="flex items-center">
-					Proyects
+				<a href="#about" className="flex items-center">
+					About
 				</a>
 			</Typography>
 			<Typography
@@ -75,6 +77,42 @@ export default function Example() {
 				>
 					Contact
 				</a>
+			</Typography>
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal "
+			>
+				<a
+					rel="noreferrer"
+					href="#contact"
+					className="p-1 font-normal flex items-center"
+				>
+					<BsLinkedin className="text-blue-300 sm:text-3xl" />
+				</a>
+			</Typography>
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal "
+			>
+				<a
+					rel="noreferrer"
+					href="#contact"
+					className="p-1 font-normal flex items-center"
+				>
+					<BsGithub className="text-blue-300 sm:text-3xl" />
+				</a>
+			</Typography>
+			<Typography
+				as="li"
+				variant="medium"
+				color="blue-gray"
+				className="p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
+			>
+				Download Cv
 			</Typography>
 		</ul>
 	);

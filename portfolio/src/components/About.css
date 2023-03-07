@@ -1,3 +1,5 @@
 .containerbg {
-	background: url('../images/rep.jpg');
+	background: linear-gradient(black, transparent, black),
+		url('../images/rep.jpg');
+	background-repeat: no-repeat;
 }

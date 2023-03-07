@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Raleway:wght@500&display=swap');
 
 .backhome {
-	background: url('../images/bfg6.gif');
+	background: linear-gradient(transparent, black 100%),
+		url('../images/bfg6.gif');
 
 	background-size: cover;
 	background-position: center;

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.containerProy {
+	background: linear-gradient(black, transparent, black),
+		url('../images/neg.jpg');
+}
+
+.imgProy:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.3);
+	transition: 2s;
+	filter: grayscale(0);
+}
+
+.btn {
+	font-family: Roboto, sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	color: #c6d1d6;
+	background: linear-gradient(90deg, #0066cc 0%, #0096c7 100%);
+	padding: 10px 30px;
+	border: solid #48cae4 2px;
+	box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+	border-radius: 17px;
+	transition: 526ms;
+	transform: translateY(0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+}
+
+.btnmob {
+	font-family: Roboto, sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	color: #c6d1d6;
+	background: linear-gradient(90deg, #0066cc 0%, #0096c7 100%);
+	padding: 10px 30px;
+	border: solid #48cae4 2px;
+	box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+	border-radius: 17px;
+	transition: 526ms;
+	transform: translateY(0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+}
+
+.btn:hover {
+	transition: 526ms;
+	padding: 10px 39px;
+	transform: translateY(-0px);
+	background: linear-gradient(90deg, #0066cc 0%, #0096c7 100%);
+	color: #d1dae3;
+	border: solid 2px #0066cc;
+}
