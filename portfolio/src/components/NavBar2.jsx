@@ -61,7 +61,7 @@ export default function NavBar() {
 								<a href="#home">Home</a>
 							</li>
 							<li className=" hover:text-blue-600">
-								<a href="#proyects">Proyects</a>
+								<a href="#projects">Projects</a>
 							</li>
 							<li className=" hover:text-blue-600">
 								<a href="#about">About </a>
