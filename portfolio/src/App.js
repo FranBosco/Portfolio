@@ -1,9 +1,8 @@
 import './App.css';
-import NavBar from './components/NavBar.jsx';
 import NavBar2 from './components/NavBar2';
 import About from './components/About';
 import Skills from './components/Skills';
-import Proyects from './components/Proyects';
+import Projects from './components/Proyects';
 import Contact from './components/Contact';
 import Home from './components/Home';
 function App() {
@@ -14,7 +13,7 @@ function App() {
 				<Home />
 			</section>
 			<section id="proyects">
-				<Proyects />
+				<Projects />
 			</section>
 			<section id="about">
 				<About />
