@@ -1,0 +1,5 @@
+.containerContact {
+	background: linear-gradient(black, transparent, black),
+		url('../images/69461-azul-y-negro.jpg');
+	background-size: cover;
+}

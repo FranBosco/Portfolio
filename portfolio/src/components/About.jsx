@@ -3,7 +3,7 @@ import './About.css';
 export default function About() {
 	return (
 		<div>
-			<div className=" min-h-screen pt-[10vh] scroll-smooth text-white bg-black containerbg sm:pl-10 sm:pr-10">
+			<div className=" min-h-screen pt-[15vh] scroll-smooth text-white bg-black containerbg sm:pl-10 sm:pr-10">
 				<h1 className="sm:text-5xl text-3xl ml-4 sm:ml-0 mb-4 sm:mb-10">
 					About Me
 				</h1>

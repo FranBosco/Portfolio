@@ -8,6 +8,7 @@ import { SiTailwindcss } from 'react-icons/si';
 import { FaNode } from 'react-icons/fa';
 import { SiSequelize } from 'react-icons/si';
 import { SiPostgresql } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
 
 export default function Skills() {
 	return (
@@ -47,6 +48,10 @@ export default function Skills() {
 				<div className="flex  text-4xl sm:text-5xl mb-5 sm:mb-16 text-blue-500 logos">
 					<SiSequelize className="sm:mr-4 " />
 					<h3>Sequelize</h3>
+				</div>
+				<div className="flex  text-4xl sm:text-5xl mb-5 sm:mb-16 text-blue-500 logos">
+					<SiCss3 className="sm:mr-4 " />
+					<h3>Css</h3>
 				</div>
 			</div>
 		</div>

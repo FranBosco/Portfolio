@@ -1,17 +1,16 @@
 import React from 'react';
 import './Home.css';
 import foto from '../images/aaa.jpg';
-import { IoIosArrowDropdownCircle } from 'react-icons/io';
 
 export default function Home() {
 	return (
-		<div className="sm:min-h-screen max-h-screen scroll-smooth text-white sm:text-4xl backhome sm:flex sm:flex-col h-screen pt-[12vh] sm:pt-[25vh] lg:pt-[15vh]">
+		<div className="sm:min-h-screen max-h-screen scroll-smooth text-white sm:text-4xl backhome sm:flex sm:flex-col h-screen pt-[15vh] sm:pt-[25vh] lg:pt-[15vh]">
 			<div className="flex sm:ml-[30vw] flex-col sm:flex-row">
 				<div className=" sm:foto">
 					<img
 						src={foto}
 						alt=""
-						className="sm:w-[17vw] lg:w-[26vw] w-[70vw] ml-[15vw] sm:ml-0 rounded-full  sm:mt-20 hover:shadow-xl hover:shadow-blue-400 fotoh "
+						className="sm:w-[50vw] lg:w-[26vw] w-[70vw] ml-[15vw] sm:ml-0 rounded-full  sm:mt-20 hover:shadow-xl hover:shadow-blue-400 fotoh "
 					/>
 				</div>
 
@@ -20,7 +19,7 @@ export default function Home() {
 						<h1>
 							Hi! i'm
 							<div className="lista">
-								<div className="item text-blue-500">Franco Bosco</div>
+								<div className="item text-teal-300">Franco Bosco</div>
 								<div className="item text-yellow-400">FullStack developer</div>
 								<div className="item text-teal-500">Proactive</div>
 								<div className="item text-indigo-400">Hard worker</div>
@@ -43,11 +42,6 @@ export default function Home() {
 					required in the market.{' '}
 				</p>
 			</div>
-			{/* <div className="flex justify-center">
-				<a href="#about">
-					<IoIosArrowDropdownCircle className="text-6xl mt-20 mb-20 flex justify-center animate-bounce text-blue-400" />
-				</a>
-			</div> */}
 		</div>
 	);
 }

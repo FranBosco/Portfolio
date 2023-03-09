@@ -19,7 +19,7 @@ export default function Example() {
 	}, []);
 
 	const navList = (
-		<ul className=" flex flex-col lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 w-full">
+		<ul className=" flex flex-col lg:mb-0 lg:mt-0 lg:flex-row  lg:gap-6 w-full">
 			<Typography
 				as="li"
 				variant="medium"
@@ -110,7 +110,7 @@ export default function Example() {
 				as="li"
 				variant="medium"
 				color="blue-gray"
-				className="w-[60vw] sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
+				className="w-[60vw] h-fit sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
 			>
 				Download Cv
 			</Typography>
@@ -118,7 +118,7 @@ export default function Example() {
 	);
 
 	return (
-		<Navbar className="mx-auto  lg:px-8  bg-gradient-to-b from-blue-900 to-black opacity-95 sm:text-2xl fixed z-50 h-fit pb-4 sm:pb-0 sm:h-[10vh] w-full ">
+		<Navbar className="mx-auto  lg:px-8  bg-gradient-to-b from-blue-900 to-black opacity-95 sm:text-2xl fixed z-50 h-fit pb-4 sm:pb-0 sm:h-[10vh] xl:h-[12vh] w-full ">
 			<div className=" mx-auto flex  justify-between mt-[3vh] text-blue-gray-900 pr-80 sm:pr-0  sm:pt-0  ">
 				<Typography
 					as="a"
