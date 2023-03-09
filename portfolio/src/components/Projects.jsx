@@ -3,13 +3,13 @@ import React from 'react';
 import reserva from '../images/reserva.png';
 import cvc from '../images/cvcami.png';
 import invent from '../images/Gestor.png';
-import './Proyects.css';
+import './Projects.css';
 
 export default function Proyects() {
 	return (
 		<div className=" min-h-screen pt-[15vh] scroll-smooth text-white flex flex-col align-middle containerProy">
 			<div className="sm:text-5xl text-2xl  flex justify-start mb-10 ml-20">
-				My proyects
+				My projects
 			</div>
 			<div className="sm:flex flex-row justify-center pb-6 sm:pb-0 px-4 sm:px-0">
 				<div>
