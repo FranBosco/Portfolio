@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import foto from '../images/aaa.jpg';
+import { TfiArrowCircleUp } from 'react-icons/tfi';
 
 export default function Home() {
 	return (
@@ -42,6 +43,14 @@ export default function Home() {
 					required in the market.{' '}
 				</p>
 			</div>
+			{/* <div className="fixed sm:top-[80vh] left-[85vw]">
+				<div></div>
+				<div>
+					<a href="#home">
+						<TfiArrowCircleUp className="sm:text-6xl text-white" />
+					</a>
+				</div>
+			</div> */}
 		</div>
 	);
 }

@@ -91,9 +91,14 @@ export default function NavBar() {
 								</a>
 							</li>
 							<li>
-								<button className="w-[60vw] h-fit sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer">
-									Download Cv
-								</button>
+								<a
+									href="https://drive.google.com/file/d/1C8xNEPIhteTsu8EuV1IWowW4JR1ffmnb/view?usp=sharing"
+									target="_blank"
+									rel="noreferrer"
+									className="w-[60vw] h-fit sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
+								>
+									View/Download Cv
+								</a>
 							</li>
 						</ul>
 					</div>
