@@ -57,19 +57,19 @@ export default function NavBar() {
 						} `}
 					>
 						<ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 sm:text-2xl">
-							<li className=" hover:text-blue-600">
+							<li className=" hover:text-blue-600 sm:hover:scale-125">
 								<a href="#home">Home</a>
 							</li>
-							<li className=" hover:text-blue-600">
+							<li className=" hover:text-blue-600 sm:hover:scale-125">
 								<a href="#projects">Projects</a>
 							</li>
-							<li className=" hover:text-blue-600">
+							<li className=" hover:text-blue-600 sm:hover:scale-125">
 								<a href="#about">About </a>
 							</li>
-							<li className=" hover:text-blue-600">
+							<li className=" hover:text-blue-600 sm:hover:scale-125">
 								<a href="#skills">Skills</a>
 							</li>
-							<li className=" hover:text-blue-600">
+							<li className=" hover:text-blue-600 sm:hover:scale-125">
 								<a href="#contact">Contact</a>
 							</li>
 							<li className=" hover:text-blue-600 flex justify-center">
@@ -78,7 +78,7 @@ export default function NavBar() {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<BsLinkedin className="text-blue-300 text-3xl" />
+									<BsLinkedin className="text-blue-300 text-3xl  hover:text-teal-50 sm:hover:scale-125" />
 								</a>
 							</li>
 							<li className=" hover:text-blue-600 flex justify-center">
@@ -87,7 +87,7 @@ export default function NavBar() {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<BsGithub className="text-blue-300 text-3xl" />
+									<BsGithub className="text-blue-300 text-3xl hover:text-teal-50 sm:hover:scale-125" />
 								</a>
 							</li>
 							<li>
@@ -95,7 +95,7 @@ export default function NavBar() {
 									href="https://drive.google.com/file/d/1sxWWzY5d7eo0F7EqIzeppTTKhCSlHIgy/view?usp=sharing"
 									target="_blank"
 									rel="noreferrer"
-									className="w-[60vw] h-fit sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
+									className="w-[60vw] hover:border-teal-50 hover:text-teal-50  h-fit sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
 								>
 									Resume
 								</a>

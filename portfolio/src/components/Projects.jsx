@@ -28,12 +28,12 @@ export default function Projects() {
 						the part of the administrators, they have several tools to maintain
 						order within the page.
 					</p>
-					<p className="pt-1 text-sky-700">
+					<p className="pt-1 text-sky-700 sm:mb-1">
 						Tecnologies: JavaScript, React, Redux, Tailwind, Node, Express,
 						Sequelize, Postgres, Mercadopago, Auth0, Cloudinary{' '}
 					</p>
 					<div className="flex justify-center">
-						<button className="btnmob sm:btn mr-4">
+						<button className="btn mr-4">
 							<a
 								href="https://henry-lareserva-front.vercel.app/"
 								target="_blank"
@@ -70,7 +70,7 @@ export default function Projects() {
 					<p className="text-sm">
 						Resume for graphic designer using Javascript, React and Tailwind
 					</p>
-					<p className="pt-1 text-sky-700">
+					<p className="pt-1 text-sky-700 sm:mb-1">
 						Tecnologies: JavaScript, React, Tailwind
 					</p>
 					<div className="flex justify-center">
@@ -109,9 +109,9 @@ export default function Projects() {
 				<div className=" flex flex-col sm:ml-5 border-2 border-blue-900 py-1 px-1 mr-1 rounded-xl sm:h-48 sm:w-[65vw]">
 					<p className="sm:text-2xl sm:pb-2 ">Stock manager</p>
 					<p className="text-sm">
-						stock manager for inventory control of any type of company
+						Stock manager for inventory control of any type of company
 					</p>
-					<p className="pt-1 text-sky-700">
+					<p className="pt-1 text-sky-700 sm:mb-1">
 						Tecnologies: JavaScript, React, Redux, Tailwind, Node, Express,
 						Sequelize, Postgres.
 					</p>
