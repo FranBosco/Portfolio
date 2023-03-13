@@ -4,7 +4,8 @@ import reserva from '../images/reserva.png';
 import cvc from '../images/cvcami.png';
 import invent from '../images/Gestor.png';
 import './Projects.css';
-
+// className=" sm:h-48 rounded-xl imgProy pb-2 sm:pb-0"  foto
+// <div className=" flex flex-col sm:ml-5 border-2 border-blue-900 py-1 px-1 mr-1 rounded-xl sm:h-48 sm:w-[65vw]"> cuadro
 export default function Projects() {
 	return (
 		<div className=" min-h-screen pt-[15vh] scroll-smooth text-white flex flex-col align-middle containerProy">
@@ -16,10 +17,10 @@ export default function Projects() {
 					<img
 						src={reserva}
 						alt=""
-						className="sm:w-[15vw] rounded-xl imgProy pb-2 sm:pb-0"
+						className="sm:w-[20vw] rounded-xl imgProy pb-2 sm:pb-0 sm:h-48"
 					/>
 				</div>
-				<div className="sm:w-[60vw] flex flex-col sm:ml-20 border-2 border-blue-900 py-1 px-1 rounded-xl">
+				<div className=" flex flex-col sm:ml-5 border-2 border-blue-900 py-1 px-1 mr-1 rounded-xl sm:h-48 sm:w-[65vw]">
 					<p className="sm:text-2xl sm:pb-2">La reserva App</p>
 					<p className="text-sm">
 						Web page oriented to a soccer complex that allows its users to
@@ -60,10 +61,10 @@ export default function Projects() {
 					<img
 						src={cvc}
 						alt=""
-						className="sm:w-[15vw] rounded-xl imgProy pb-2 sm:pb-0"
+						className="sm:w-[20vw] rounded-xl imgProy pb-2 sm:pb-0 sm:h-48"
 					/>
 				</div>
-				<div className="sm:w-[60vw] flex flex-col sm:mr-20 border-2 border-blue-900 py-1 px-1 rounded-xl justify-center">
+				<div className=" flex flex-col sm:mr-5 border-2 border-blue-900 py-1 px-1 mr-1 rounded-xl sm:h-48 sm:w-[65vw]">
 					<p className="sm:text-2xl sm:pb-2">Resume</p>
 
 					<p className="text-sm">
@@ -102,10 +103,10 @@ export default function Projects() {
 					<img
 						src={invent}
 						alt=""
-						className="sm:w-[15vw] rounded-xl imgProy pb-2 sm:pb-0"
+						className="sm:w-[20vw] rounded-xl imgProy pb-2 sm:pb-0 sm:h-48"
 					/>
 				</div>
-				<div className="sm:w-[60vw] flex flex-col sm:ml-20 border-2 border-blue-900 py-1 px-1 rounded-xl justify-center">
+				<div className=" flex flex-col sm:ml-5 border-2 border-blue-900 py-1 px-1 mr-1 rounded-xl sm:h-48 sm:w-[65vw]">
 					<p className="sm:text-2xl sm:pb-2 ">Stock manager</p>
 					<p className="text-sm">
 						stock manager for inventory control of any type of company

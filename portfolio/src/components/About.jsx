@@ -19,28 +19,40 @@ export default function About() {
 						<h2 className="text-2xl sm:text-4xl font-bold sm:mb-4 text-blue-700">
 							Education
 						</h2>
-						<div className="sm:border-2 sm:border-blue-600 rounded-lg pb-4 sm:pb-0">
-							<h3 className="sm:text-3xl text-xl font-bold pb-2 sm:pb-4">
-								- FullStack Developer
-							</h3>
-							<h4 className="sm:text-2xl sm:pb-4">Bootcamp SoyHenry</h4>
-							<p className="sm:w-[30vw]">
-								I worked on the creation of a web page for a sports complex to
-								manage registrations for amateur soccer tournaments, as well as
-								their administration by the complex.
-							</p>
+						<div className="sm:border-2 sm:border-blue-600 rounded-lg pb-4 sm:pb-0 ">
+							<div className="sm:flex sm:justify-center">
+								<h3 className="sm:text-3xl text-xl font-bold pb-2 sm:pb-4 flex justify-center">
+									- FullStack Developer
+								</h3>
+							</div>
+							<div className="sm:flex sm:justify-center">
+								<h4 className="sm:text-2xl sm:pb-4">Bootcamp SoyHenry</h4>
+							</div>
+							<div className="sm:flex sm:justify-center">
+								<p className="sm:w-[30vw]">
+									I worked on the creation of a web page for a sports complex to
+									manage registrations for amateur soccer tournaments, as well
+									as their administration by the complex.
+								</p>
+							</div>
 						</div>
 						<div className="sm:border-2 sm:border-blue-600 rounded-lg sm:mt-8">
-							<h3 className="sm:text-3xl font-bold sm:pb-4 text-xl ">
-								- Bachelor of Business Administration
-							</h3>
-							<h4 className="sm:text-2xl sm:pb-4">
-								National University of Mar del Plata
-							</h4>
-							<p className="sm:w-[30vw]">
-								{' '}
-								I am currently in my last year of studies.
-							</p>
+							<div className="sm:flex sm:justify-center">
+								<h3 className="sm:text-3xl font-bold sm:pb-4 text-xl ">
+									- Bachelor of Business Administration
+								</h3>
+							</div>
+							<div className="sm:flex sm:justify-center">
+								<h4 className="sm:text-2xl sm:pb-4">
+									National University of Mar del Plata
+								</h4>
+							</div>
+							<div className="sm:flex sm:justify-center">
+								<p className="sm:w-[30vw]">
+									{' '}
+									I am currently in my last year of studies.
+								</p>
+							</div>
 						</div>
 					</div>
 					<div className="sm:border-2 sm:border-white sm:px-6 sm:py-4 sm:rounded-lg bg-black bg-opacity-75">
