@@ -92,7 +92,7 @@ export default function NavBar() {
 							</li>
 							<li>
 								<a
-									href="https://drive.google.com/file/d/1sxWWzY5d7eo0F7EqIzeppTTKhCSlHIgy/view?usp=sharing"
+									href="https://drive.google.com/file/d/1uBhRRZa9RroIgwol55c-spEnlO-zIo4q/view?usp=sharing"
 									target="_blank"
 									rel="noreferrer"
 									className="w-[60vw] hover:border-teal-50 hover:text-teal-50  h-fit sm:w-auto p-1 font-normal border-2 border-blue-300 rounded-xl text-blue-300 hover:bg-gradient-to-r from-blue-400 to-black hover:cursor-pointer"
