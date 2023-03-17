@@ -14,8 +14,8 @@ export default function About() {
 						sector.
 					</p>
 				</div>
-				<div className="flex sm:mt-20 sm:justify-around flex-col sm:flex-row ">
-					<div className="sm:border-2 sm:border-white px-4 sm:px-6 sm:py-4 sm:rounded-lg bg-black bg-opacity-75">
+				<div className="flex sm:mt-20 sm:justify-around flex-col sm:grid sm:grid-cols-2 ">
+					<div className="sm:border-2 sm:border-white px-4 sm:px-6 sm:py-4 sm:rounded-lg bg-black bg-opacity-75 sm:mr-8">
 						<h2 className="text-2xl sm:text-4xl font-bold sm:mb-4 text-blue-700">
 							Education
 						</h2>
