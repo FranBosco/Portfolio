@@ -2,7 +2,7 @@ import React from 'react';
 
 import reserva from '../images/reserva.png';
 import cvc from '../images/cvcami.png';
-import invent from '../images/Gestor.png';
+import invent from '../images/stock.png';
 import './Projects.css';
 // className=" sm:h-48 rounded-xl imgProy pb-2 sm:pb-0"  foto
 // <div className=" flex flex-col sm:ml-5 border-2 border-blue-900 py-1 px-1 mr-1 rounded-xl sm:h-48 sm:w-[65vw]"> cuadro
